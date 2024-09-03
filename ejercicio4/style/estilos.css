@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+#divAzul,#divRojo, #divAmarillo, #divVerde, #key {
+    width: 200px;
+    height: 200px;
+    
+}
+#divAzul{
+    background-color: blue;
+}
+
+#divRojo {
+    background-color: red;
+}
+
+#divVerde {
+    background-color: green;
+}
+
+#divAmarillo {
+    background-color: yellow;
+}
+#key{
+    margin: 1rem;
+    border: solid black;
+}
+
+#contenedor {
+    margin: 1rem;
+    border: solid black;
+    width: 200px;
+    height: 200px;
+
+}
